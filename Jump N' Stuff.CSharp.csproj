@@ -75,10 +75,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CheckpointScript.cs" />
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\MovingObject.cs" />
     <Compile Include="Assets\PickupUI.cs" />
-    <Compile Include="Assets\PlayerSpawn.cs" />
+    <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\Scripts\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
+    <Compile Include="Assets\Shooter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
